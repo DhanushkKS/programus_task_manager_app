@@ -10,9 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b0d7cc-86c3-4354-a2d1-91eeb146643a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.API/Controllers/ApiBaseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.API/Controllers/Task/TaskController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Dtos/Task/UpdateTaskDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgromusTaskForge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgromusTaskForge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.API/Controllers/Task/TaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.API/Controllers/Task/TaskController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Application/Commands/UpdateTaskCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Commands/UpdateTaskCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/Persistences/Repositories/TaskRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/Persistences/Repositories/TaskRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.ProgromusTaskForge.API: http.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "features/task-domain",
@@ -137,5 +141,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProgramusTaskForge.API/Controllers/Task/TaskController.cs</url>
+          <line>53</line>
+          <properties documentPath="D:\projects\ASP.NET\Programus\task-forge\ProgromusTaskForge\ProgramusTaskForge.API\Controllers\Task\TaskController.cs" initialLine="53" containingFunctionPresentation="Method 'Delete'">
+            <startOffsets>
+              <option value="1322" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1370" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProgramusTaskForge.API/Controllers/Task/TaskController.cs</url>
+          <line>54</line>
+          <properties documentPath="D:\projects\ASP.NET\Programus\task-forge\ProgromusTaskForge\ProgramusTaskForge.API\Controllers\Task\TaskController.cs" initialLine="54" containingFunctionPresentation="Method 'Delete'">
+            <startOffsets>
+              <option value="1379" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1391" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProgramusTaskForge.Application/Commands/DeleteTaskCommand.cs</url>
+          <line>18</line>
+          <properties documentPath="D:\projects\ASP.NET\Programus\task-forge\ProgromusTaskForge\ProgramusTaskForge.Application\Commands\DeleteTaskCommand.cs" initialLine="18" containingFunctionPresentation="Method 'Handle'">
+            <startOffsets>
+              <option value="555" />
+            </startOffsets>
+            <endOffsets>
+              <option value="590" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

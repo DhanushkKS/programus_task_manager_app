@@ -12,7 +12,7 @@ public class TaskRepository: ITaskRepository
         _dbContext = dbContext;
     }
 
-    public List<Domain.Entities.Task.TaskEntity> GetAll()
+    public List<TaskEntity> GetAll()
     {
         return _dbContext.Tasks.ToList();
     }
@@ -30,7 +30,7 @@ public class TaskRepository: ITaskRepository
     }
 
     public TaskEntity Update(TaskEntity task)
-    {
+    { 
         _dbContext.Tasks.Update(task);
         _dbContext.SaveChanges();
         return task;
@@ -39,7 +39,12 @@ public class TaskRepository: ITaskRepository
     public int Delete(int id)
     {
         TaskEntity task = GetById(id);
+        if (task is null)
+        {
+            throw new Exception($"Task that you looking for delete {id} is not found");
+        }
         _dbContext.Remove(task);
+        _dbContext.SaveChanges();
         return id;
     }
 }

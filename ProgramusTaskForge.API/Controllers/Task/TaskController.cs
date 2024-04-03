@@ -43,7 +43,7 @@ public class TaskController:ApiBaseController
     [Route("{id:int}")]
     public async Task<IActionResult> Update([FromRoute] int id, [FromBody] UpdateTaskCommand command)
     {
-        var task = _mediator.Send(command);
+        var task =await _mediator.Send(command);
         return Ok(task);
     }
 

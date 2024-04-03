@@ -6,7 +6,7 @@ using ProgromusTaskForge.Domain.Entities.Task;
 
 namespace ProgromusTaskForge.Application.Commands;
 
-public record UpdateTaskCommand(CreateTaskDto Task):IRequest<TaskEntity>;
+public record UpdateTaskCommand(UpdateTaskDto Task):IRequest<TaskEntity>;
 public class UpdateTaskCommandHandler:IRequestHandler<UpdateTaskCommand,TaskEntity>
 {
     private readonly IMapper _mapper;
