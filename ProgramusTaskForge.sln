@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgromusTaskForge.API", "ProgromusTaskForge.API\ProgromusTaskForge.API.csproj", "{5B0A8008-1B67-4CE6-8062-B9B33CA6D07E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramusTaskForge.API", "ProgramusTaskForge.API\ProgramusTaskForge.API.csproj", "{5B0A8008-1B67-4CE6-8062-B9B33CA6D07E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgromusTaskForge.Domain", "ProgromusTaskForge.Domain\ProgromusTaskForge.Domain.csproj", "{2DFD9E46-FEEA-40F6-A058-2AD97E5A5250}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramusTaskForge.Domain", "ProgramusTaskForge.Domain\ProgramusTaskForge.Domain.csproj", "{2DFD9E46-FEEA-40F6-A058-2AD97E5A5250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgromusTaskForge.Application", "ProgromusTaskForge.Application\ProgromusTaskForge.Application.csproj", "{E3000733-3F26-49B8-8363-0A5DE09CB26B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramusTaskForge.Application", "ProgramusTaskForge.Application\ProgramusTaskForge.Application.csproj", "{E3000733-3F26-49B8-8363-0A5DE09CB26B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgromusTaskForge.Infrastructure", "ProgromusTaskForge.Infrastructure\ProgromusTaskForge.Infrastructure.csproj", "{32D5B8BB-21B7-48BF-BE92-D75588F7002E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramusTaskForge.Infrastructure", "ProgramusTaskForge.Infrastructure\ProgramusTaskForge.Infrastructure.csproj", "{32D5B8BB-21B7-48BF-BE92-D75588F7002E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
