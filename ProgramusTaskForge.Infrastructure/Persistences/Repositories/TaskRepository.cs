@@ -1,4 +1,5 @@
 using ProgromusTaskForge.Application.Repositories;
+using ProgromusTaskForge.Domain.Entities.Task;
 
 namespace ProgromusTaskForge.Infrastructure.Persistences.Repositories;
 
@@ -11,24 +12,24 @@ public class TaskRepository: ITaskRepository
         _dbContext = dbContext;
     }
 
-    public List<Task> GetAll()
+    public List<Domain.Entities.Task.TaskEntity> GetAll()
     {
         return _dbContext.Tasks.ToList();
     }
 
-    public Task GetById(int id)
+    public TaskEntity GetById(int id)
     {
         return _dbContext.Tasks.FirstOrDefault(t => t.Id == id) ?? throw new InvalidOperationException();
     }
 
-    public Task Create(Task task)
+    public TaskEntity Create(TaskEntity task)
     {
         _dbContext.Tasks.Add(task);
         _dbContext.SaveChanges();
         return task;
     }
 
-    public Task Update(Task task)
+    public TaskEntity Update(TaskEntity task)
     {
         _dbContext.Tasks.Update(task);
         _dbContext.SaveChanges();
@@ -37,7 +38,7 @@ public class TaskRepository: ITaskRepository
 
     public int Delete(int id)
     {
-        Task task = GetById(id);
+        TaskEntity task = GetById(id);
         _dbContext.Remove(task);
         return id;
     }

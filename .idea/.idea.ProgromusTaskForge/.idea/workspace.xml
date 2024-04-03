@@ -10,10 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b0d7cc-86c3-4354-a2d1-91eeb146643a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Repositories/ITaskRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/Persistences/Repositories/TaskRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/TFDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Queries/GetAllTasksQuery.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgromusTaskForge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgromusTaskForge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Application/ProgramusTaskForge.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/ProgramusTaskForge.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Application/Repositories/ITaskRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Repositories/ITaskRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Domain/Entities/Task/Task.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Domain/Entities/Task/TaskEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/Persistences/Repositories/TaskRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/Persistences/Repositories/TaskRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/TFDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/TFDbContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
