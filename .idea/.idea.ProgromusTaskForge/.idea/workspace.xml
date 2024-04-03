@@ -10,13 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b0d7cc-86c3-4354-a2d1-91eeb146643a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Queries/GetAllTasksQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Commands/CreateTaskCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Commands/DeleteTaskCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Commands/UpdateTaskCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Dtos/Task/CreateTaskDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Profile/ProfileMapping.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Queries/GetTaskByIdQuery.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgromusTaskForge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgromusTaskForge/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Application/ProgramusTaskForge.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/ProgramusTaskForge.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Application/Repositories/ITaskRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Repositories/ITaskRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Domain/Entities/Task/Task.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Domain/Entities/Task/TaskEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/Persistences/Repositories/TaskRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/Persistences/Repositories/TaskRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/TFDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Infrastructure/TFDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramusTaskForge.Application/Queries/GetAllTasksQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramusTaskForge.Application/Queries/GetAllTasksQuery.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +129,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

@@ -8,16 +8,16 @@ public record GetAllTasksQuery():IRequest<List<TaskEntity>>;
 
 public class GetAllTasksQueryhandler : IRequestHandler<GetAllTasksQuery, List<TaskEntity>>
 {
-    public readonly ITaskRepository _TaskRepository;
+    public readonly ITaskRepository _taskRepository;
 
     public GetAllTasksQueryhandler(ITaskRepository taskRepository)
     {
-        _TaskRepository = taskRepository;
+        _taskRepository = taskRepository;
     }
 
     public Task<List<TaskEntity>> Handle(GetAllTasksQuery request, CancellationToken cancellationToken)
     {
-        List<TaskEntity> tasks = _TaskRepository.GetAll();
+        List<TaskEntity> tasks = _taskRepository.GetAll();
         return Task.FromResult(tasks);
     }
 }
