@@ -17,4 +17,10 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ProgramusTaskForge.Application\ProgramusTaskForge.Application.csproj" />
+      <ProjectReference Include="..\ProgramusTaskForge.Domain\ProgramusTaskForge.Domain.csproj" />
+      <ProjectReference Include="..\ProgramusTaskForge.Infrastructure\ProgramusTaskForge.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

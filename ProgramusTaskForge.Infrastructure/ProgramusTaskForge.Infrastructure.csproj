@@ -20,4 +20,9 @@
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ProgramusTaskForge.Application\ProgramusTaskForge.Application.csproj" />
+      <ProjectReference Include="..\ProgramusTaskForge.Domain\ProgramusTaskForge.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
